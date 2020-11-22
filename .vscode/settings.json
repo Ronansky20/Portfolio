@@ -1,4 +1,13 @@
 {
     "git.ignoreLimitWarning": true,
     "jshint.options": {"esversion": 8},
+
+    "liveSassCompile.settings.formats": [
+    
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/public/css"
+        }
+    ],
 }
