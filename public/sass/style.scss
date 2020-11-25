@@ -1,13 +1,13 @@
-html,body{
+
+html,body {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     height: 100vh;
-    background: rgb(240, 240, 240);
-}
+    background: whitesmoke;
 
 .wrapper {
     padding: 1em;
@@ -25,7 +25,7 @@ a {
     color: black;
 }
 
-li a {
+li, a {
     margin-right: 2em;
 }
 
@@ -35,12 +35,14 @@ h1 {
 }
 
 .cta {
-    padding: 1em 1em 1em 0;
+    display: block;
+    padding: 2em 2em 2em 0;
     font-size: 1.4em;
 }
 
 img {
     width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
 ul.transition {
@@ -48,7 +50,6 @@ ul.transition {
     position: absolute;
     z-index: 10;
     height: 100vh;
-    width: 100vh;
     width: 100%;
     top: 0;
     left: 0;
@@ -61,6 +62,12 @@ ul.transition li{
     background: white;
     width: 20%;
 }
+
+.logo {
+        width: 41px;
+        height: 41px;
+        margin-bottom: 10px;
+    }
 
 @media (min-width: 650px) {
     main {
@@ -90,5 +97,9 @@ ul.transition li{
         width: 80%;
         animation-fill-mode: initial;
     }
-}
 
+    .nav {
+        height: fit-content;
+    }
+
+}}
