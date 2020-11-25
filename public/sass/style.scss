@@ -1,3 +1,7 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap);
+
 
 html,body {
     margin: 0;
@@ -6,7 +10,7 @@ html,body {
 
 body {
     font-family: 'Montserrat';
-    height: 100vh;
+    height: 50vh;
     background: whitesmoke;
 
 .wrapper {
@@ -25,19 +29,21 @@ a {
     color: black;
 }
 
-li, a {
+a, .navbar {
     margin-right: 2em;
 }
 
 h1 {
+    font-family: 'Anonymous Pro', monospace; 
     font-size: 3em;
     margin-top: 1.5em;
 }
 
 .cta {
-    display: block;
-    padding: 2em 2em 2em 0;
     font-size: 1.4em;
+    white-space: nowrap;
+    font-family: 'Montserrat' sans-serif;
+    font-style: inherit;
 }
 
 img {
@@ -60,7 +66,7 @@ ul.transition {
 ul.transition li{
     transform: scaleY(0);
     background: white;
-    width: 20%;
+    width: 50%;
 }
 
 .logo {
@@ -68,6 +74,17 @@ ul.transition li{
         height: 41px;
         margin-bottom: 10px;
     }
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
 
 @media (min-width: 650px) {
     main {
@@ -91,8 +108,6 @@ ul.transition li{
     }
 
     .cta {
-        padding: 1em;
-        position: absolute;
         z-index:21 !important;
         width: 80%;
         animation-fill-mode: initial;
