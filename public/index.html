@@ -23,9 +23,6 @@
       to avoid connecting the SDK to running emulators.
     -->
   <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-  <script src="https://unpkg.com/@barba/core"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-  <script src="/js/index.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <style>
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
@@ -34,6 +31,15 @@
 
 </head>
   <body data-barba="wrapper">
+
+    <ul class="transition">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
 
     <div class="wrapper">
       <header>
@@ -45,7 +51,23 @@
           </ul>
         </nav>
       </header>
+      
+      <main data-barba="container" data-barba-namespace="home">
+        <div class="left">
+          <h1>Ronan Drost</h1>
+          <p class="cta">front-end developer</p>
+        </div>
+        <img src="images/home.svg" class="frontimg" alt="home">
+      </main>
     </div>
+
+    <!--barba and gsap cdn-->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!--main js file-->
+      <script src="js/index.js"></script>
+
   </body>
 
 </html>

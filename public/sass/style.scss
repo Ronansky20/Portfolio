@@ -1,0 +1,95 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background: rgb(240, 240, 240);
+}
+
+.wrapper {
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li a {
+    margin-right: 2em;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 1.5em;
+}
+
+.cta {
+    padding: 1em 1em 1em 0;
+    font-size: 1.4em;
+}
+
+.frontimg {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+ul.transition {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+ul.transition li{
+    transform: scaleY(0);
+    background: white;
+    width: 20%;
+}
+
+@media (min-width: 650px) {
+    main {
+        display: flex;
+        margin-top: 3em;
+        position: relative;
+        z-index: 3;
+    }
+
+    .wrapper {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    .left {
+        padding-right: 2em;
+    }
+
+    .frontimg {
+        width: 400px;
+    }
+
+    .cta {
+        padding: 1em;
+        position: absolute;
+        z-index:21 !important;
+        width: 80%;
+        animation-fill-mode: initial;
+    }
+}
+

@@ -1,54 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About me</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/8.1.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/8.1.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.1.1/firebase-database.js"></script>
-    <script defer src="/__/firebase/8.1.1/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/8.1.1/firebase-functions.js"></script>
-    <script defer src="/__/firebase/8.1.1/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/8.1.1/firebase-storage.js"></script>
-    <script defer src="/__/firebase/8.1.1/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.1.1/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.1.1/firebase-performance.js"></script>
-    <!-- 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/8.1.1/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/8.1.1/firebase-auth.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-database.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-firestore.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-functions.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-storage.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-analytics.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-remote-config.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-performance.js"></script>
+  <!-- 
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-        <script src="https://unpkg.com/@barba/core"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="./js/index.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
-    </style>
-    
-  </head>
-<body data-barba="wrapper">
-   
-    <div class="wrapper">
-        <header>
-            <nav class="nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Aboutme.html">About me</a></li>
-                    <li><a href="Mywork.html">My work</a></li>
-                    <li><a href="Contact.html">Contact</a></li> 
-                </ul>
-            </nav>
-        </header>
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+  </style> 
 
-        <main data-barba="container" data-barba-namespace="home">
-            <img src="./images/about.svg" alt="home">
-        </main>
+
+</head>
+  <body data-barba="wrapper">
+
+    <ul class="transition">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="Aboutme.html">about</a></li>
+            <li><a href="index.html">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <main data-barba="container" data-barba-namespace="home">
+        <div class="left">
+          <h1>about me</h1>
+          <h3 class="cta">Scroll down to learn more about me</h3>
+        </div>
+        <img src="images/about.svg" class="frontimg" alt="home">
+      </main>
     </div>
 
-</body>
+    <!--barba and gsap cdn-->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!--main js file-->
+      <script src="js/index.js"></script>
+
+  </body>
+
 </html>
