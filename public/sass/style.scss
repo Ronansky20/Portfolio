@@ -39,9 +39,8 @@ h1 {
     font-size: 1.4em;
 }
 
-.frontimg {
+img {
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
 ul.transition {
@@ -80,7 +79,7 @@ ul.transition li{
         padding-right: 2em;
     }
 
-    .frontimg {
+    img {
         width: 400px;
     }
 
