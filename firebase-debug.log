@@ -1,0 +1,36 @@
+[debug] [2020-11-26T12:18:27.656Z] ----------------------------------------------------------------------
+[debug] [2020-11-26T12:18:27.662Z] Command:       C:\Users\ronan\DOCUME~1\GitHub\PORTFO~1\firebase-tools-instant-win.exe C:\Users\ronan\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase deploy
+[debug] [2020-11-26T12:18:27.663Z] CLI Version:   8.16.2
+[debug] [2020-11-26T12:18:27.663Z] Platform:      win32
+[debug] [2020-11-26T12:18:27.663Z] Node Version:  v12.18.1
+[debug] [2020-11-26T12:18:27.665Z] Time:          Thu Nov 26 2020 13:18:27 GMT+0100 (Central European Standard Time)
+[debug] [2020-11-26T12:18:27.665Z] ----------------------------------------------------------------------
+[debug] [2020-11-26T12:18:27.666Z] 
+[debug] [2020-11-26T12:18:27.679Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-26T12:18:27.680Z] > authorizing via signed-in user
+[debug] [2020-11-26T12:18:27.681Z] [iam] checking project portfolioronan for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-11-26T12:18:27.686Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolioronan:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-11-26T12:18:28.469Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 26 Nov 2020 12:18:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=588","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-26T12:18:28.473Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolioronan  
+ 
+[debug] [2020-11-26T12:18:28.652Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 26 Nov 2020 12:18:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'portfolioronan'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-11-26T12:18:28.659Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolioronan/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-11-26T12:18:29.744Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 26 Nov 2020 12:18:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[portfolioronan]: beginning deploy... 
+[info] i  hosting[portfolioronan]: found 14 files in public 
+[debug] [2020-11-26T12:18:29.772Z] [hosting] hash cache [cHVibGlj] stored for 14 files
+[debug] [2020-11-26T12:18:29.772Z] [hosting][hash queue][FINAL] {"max":7,"min":1,"avg":1.7142857142857142,"active":0,"complete":14,"success":14,"errored":0,"retried":0,"total":14,"elapsed":12}
+[debug] [2020-11-26T12:18:29.772Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolioronan/versions/f14ae2ee1410aaad:populateFiles  
+ <request body omitted>
+[debug] [2020-11-26T12:18:30.783Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 26 Nov 2020 12:18:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-26T12:18:30.787Z] [hosting][populate queue][FINAL] {"max":1015,"min":1015,"avg":1015,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1018}
+[debug] [2020-11-26T12:18:30.787Z] [hosting] uploads queued: 2
+[debug] [2020-11-26T12:18:32.253Z] [hosting][upload queue][FINAL] {"max":1469,"min":1424,"avg":1446.5,"active":0,"complete":2,"success":2,"errored":0,"retried":0,"total":2,"elapsed":1469}
+[info] +  hosting[portfolioronan]: file upload complete 
+[debug] [2020-11-26T12:18:32.255Z] [hosting] deploy completed after 2510ms
