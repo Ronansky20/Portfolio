@@ -1,0 +1,126 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap);
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+    height: 50vh;
+    background: whitesmoke;
+
+.wrapper {
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a, .navbar {
+    margin-right: 2em;
+}
+
+h1 {
+    font-family: 'Anonymous Pro', monospace; 
+    font-size: 3em;
+    margin-top: 1.5em;
+}
+
+.cta {
+    font-size: 1.4em;
+    white-space: nowrap;
+    font-family: 'Montserrat' sans-serif;
+    font-style: inherit;
+}
+
+img {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+ul.transition {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+ul.transition li{
+    transform: scaleY(0);
+    background: white;
+    width: 50%;
+}
+
+.logo {
+        width: 41px;
+        height: 41px;
+        margin-bottom: 10px;
+    }
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+.examplefront {
+    width: 1920px;
+    height: 300px;
+    background: aqua;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media (min-width: 650px) {
+    main {
+        display: flex;
+        margin-top: 3em;
+        position: relative;
+        z-index: 3;
+    }
+
+    .wrapper {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    .left {
+        padding-right: 2em;
+    }
+
+    img {
+        width: 400px;
+    }
+
+    .cta {
+        z-index:21 !important;
+        width: 80%;
+        animation-fill-mode: initial;
+    }
+
+    .nav {
+        height: fit-content;
+    }
+
+}}
