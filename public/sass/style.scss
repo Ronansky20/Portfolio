@@ -80,6 +80,12 @@ span {
   animation: caret 1s steps(1) infinite;
 }
 
+.examplefront {
+    width: 1920px;
+    height: 300px;
+    background: aqua;
+}
+
 @keyframes caret {
   50% {
     border-color: transparent;
