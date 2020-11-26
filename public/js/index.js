@@ -68,7 +68,7 @@ window.onscroll = function () {
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "Ronan Drost"];
+  var dataText = [ "Ronan Drost", "Work in Progress"];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
