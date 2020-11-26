@@ -4,8 +4,8 @@ function pageTransition() {
 
     var tl = gsap.timeline();
 
-    tl.to('ul.transition li', { duration: 0.5, scaleY: 1, transformOrigin: "bottom left", stagger: 0.2 });
-    tl.to('ul.transition li', { duration: 0.5, scaleY: 0, transformOrigin: "bottom left", stagger: 0.1, delay: 0.1 });
+    tl.to('ul.transition li', { duration: 1, scaleY: 1, transformOrigin: "bottom", stagger: 0.2 });
+    tl.to('ul.transition li', { duration: 1.5, scaleY: 0, transformOrigin: "bottom", stagger: 0.1, delay: 0.1 });
 }
 
 function contentAnimation() {
@@ -68,7 +68,7 @@ window.onscroll = function () {
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "Work in Progress", "Ronan Drost"];
+  var dataText = ["Ronan Drost"];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
