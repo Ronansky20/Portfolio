@@ -1,1 +1,73 @@
-test
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/8.1.1/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/8.1.1/firebase-auth.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-database.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-firestore.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-functions.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-storage.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-analytics.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-remote-config.js"></script>
+  <script defer src="/__/firebase/8.1.1/firebase-performance.js"></script>
+  <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+  <!--CSS file-->
+  <link rel="stylesheet" href="css/style.css?v=1">
+
+
+
+</head>
+  <body data-barba="wrapper">
+
+    <ul class="transition">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li class="navbar"><a href="index.html">home</a></li>
+            <li class="navbar"><a href="Aboutme.html">about</a></li>
+            <li class="navbar"><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <main data-barba="container" data-barba-namespace="home">
+        <div class="left">
+          <h1>Ronan Drost</h1>
+          <p class="cta">front-end developer</p>
+        </div>
+        <!--<img src="images/home.svg" alt="home" clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);>-->
+      </main>
+      
+    </div>
+
+    <!--barba and gsap cdn-->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!--main js file-->
+      <script src="js/index.js?v=1"></script>
+
+  </body>
+
+</html>
