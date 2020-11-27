@@ -9,7 +9,7 @@ html, body {
 body {
   font-family: 'Montserrat';
   height: 50vh;
-  background: whitesmoke;
+  background: #eeeeee;
 }
 
 body .wrapper {
@@ -27,11 +27,15 @@ body ul {
 
 body a {
   text-decoration: none;
-  color: black;
+  color: #1f1f1f;
 }
 
 body a, body .navbar {
   margin-right: 2em;
+}
+
+body .topbar {
+  margin-left: 30.6em;
 }
 
 body h1 {
@@ -92,6 +96,17 @@ body .examplefront {
   width: 1920px;
   height: 300px;
   background: aqua;
+}
+
+body .text-front {
+  color: #1f1f1f;
+}
+
+body .block-front {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#6a85b6), to(#bac8e0));
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  width: 120em;
+  height: 600px;
 }
 
 @-webkit-keyframes caret {

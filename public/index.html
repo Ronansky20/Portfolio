@@ -35,10 +35,8 @@
     <ul class="transition">
       <li></li>
     </ul>
-
-    <div class="wrapper">
-      <header>
-        <nav>
+    <header>
+        <nav class="topbar">
           <ul>
             <li class="navbar"><a href="index.html">home</a></li>
             <li class="navbar"><a href="Aboutme.html">about</a></li>
@@ -46,16 +44,19 @@
           </ul>
         </nav>
       </header>
-      
-      <main data-barba="container" data-barba-namespace="home">
-        <div class="left">
-          <h1>Ronan Drost</h1>
-          <p class="cta">front-end developer</p>
-        </div>
-        <!--<img src="images/home.svg" alt="home" clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);>-->
-      </main>
+  <div class="block-front">
+    <div class="wrapper">
+        <main data-barba="container" data-barba-namespace="home">
+          
+          <div class="left">
+            <h1 class="text-front">Ronan Drost</h1>
+            <p class="cta">front-end developer</p>
+          </div>
+          
+          <!--<img src="images/home.svg" alt="home" clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);>-->
+        </main>
     </div>
-
+  </div>
     <!--barba and gsap cdn-->
     <script src="https://unpkg.com/@barba/core"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
