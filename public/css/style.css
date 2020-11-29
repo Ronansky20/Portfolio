@@ -9,7 +9,7 @@ html, body {
 body {
   font-family: 'Montserrat';
   height: 50vh;
-  background: #eeeeee;
+  background: #f7f7f7;
 }
 
 body .wrapper {
@@ -27,7 +27,7 @@ body ul {
 
 body a {
   text-decoration: none;
-  color: #1f1f1f;
+  color: #212121;
 }
 
 body a, body .navbar {
@@ -95,7 +95,7 @@ body .examplefront {
 }
 
 body .text-front {
-  color: #1f1f1f;
+  color: #151515;
 }
 
 body .block-front {
