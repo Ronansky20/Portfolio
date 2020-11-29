@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="157" viewBox="0 0 134 157">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 167px;
+        fill: #e4e3e3;
+        font-family: LUCRETHIA-Regular, LUCRETHIA-Regular, LUCRETHIA;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #eabc68;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text id="rd" class="cls-1" transform="matrix(1, -0.125, 0, 1, 1, 140.626)">r<tspan class="cls-2">d</tspan></text>
+  <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-3" d="M6.01,146.763l123.66-15.486v2.17L6.01,148.932v-2.169Z"/>
+</svg>

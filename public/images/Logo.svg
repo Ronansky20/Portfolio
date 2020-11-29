@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="562" height="202" viewBox="0 0 562 202">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 167px;
+        fill: #e4e3e3;
+        font-family: LUCRETHIA-Regular, LUCRETHIA-Regular, LUCRETHIA;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #eabc68;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text id="ronand" class="cls-1" transform="matrix(1, -0.125, 0, 1, 77, 177.626)">ronan<tspan class="cls-2">d</tspan></text>
+  <path class="cls-3" d="M82,185l399-49.967v7L82,192v-7Z"/>
+</svg>
