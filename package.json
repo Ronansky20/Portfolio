@@ -14,7 +14,10 @@
   "dependencies": {
     "@barba/core": "^2.9.7",
     "@dogstudio/highway": "^2.2.1",
+    "autoprefix": "^1.0.1",
     "gsap": "^3.5.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
   }
 }
