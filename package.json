@@ -1,24 +1,26 @@
 {
-  "name": "website",
+  "name": "Portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the readme",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.29.0"
-  },
   "dependencies": {
-    "@barba/core": "^2.9.7",
-    "@dogstudio/highway": "^2.2.1",
-    "autoprefix": "^1.0.1",
     "autoprefixer": "^10.2.3",
-    "gsap": "^3.5.1",
-    "path": "^0.12.7",
     "postcss": "^8.2.4",
     "tailwindcss": "^2.0.2"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ronansky20/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ronansky20/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Ronansky20/Portfolio#readme"
 }
