@@ -52,3 +52,8 @@ html {
         display: block;
     }
 }
+
+.gradientoverlay {
+    height: 937px;
+  background: linear-gradient(141deg,rgba(252, 165, 165) 0%, #1fc8db 51%, #2cb5e8 75%)
+}
