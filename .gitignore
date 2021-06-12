@@ -4,4 +4,4 @@
 *.github
 *.firebase
 *.node_modules
-
+*.log
