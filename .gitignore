@@ -5,3 +5,4 @@
 *.firebase
 *.node_modules
 *.log
+*.firebaserc
