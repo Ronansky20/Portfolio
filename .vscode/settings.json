@@ -11,4 +11,5 @@
         }
     ],
     "liveServer.settings.port": 5501,
+    "python.pythonPath": "C:\\Python39\\python.exe",
 }
